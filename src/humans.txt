@@ -1,0 +1,17 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+  Software Architect: Miroslav Popovic
+  Site: http://miroslavpopovic.com
+  Twitter: @miroslavpopovic
+  Location: undisclosed
+
+/* THANKS */
+  Names (& URL): To all developers whose product / code / article / tool is presented in the list
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: Modernizr, jQuery, jQuery Masonry
+  Software: MS Visual Studio 2012
