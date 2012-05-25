@@ -18,6 +18,14 @@
         });
     }
 
+    $('.item li').click(function (e){
+        var a = $(this).children('a');
+        if (a) {
+            a[0].click();
+            e.stopPropagation();
+        }
+    });
+
     enableNewWindowLinks();
 })();
 
