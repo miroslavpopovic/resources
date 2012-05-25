@@ -218,14 +218,87 @@ td { vertical-align: top; }
    Author: Miroslav Popovic
    ========================================================================== */
 
+body {
+    background: #d9d9dd;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 9pt;
+    margin: 0;
+    padding: 0;
+}
 
+h2 {
+    background: #1C1A1A;
+    border-left: 20px solid #686565;
+    -moz-box-shadow: 0 0 8px #aaa;
+    -webkit-box-shadow: 0 0 8px #aaa;
+    box-shadow: 0 0 8px #aaa;
+    clear: both;
+    color: #fff;
+    margin: 0;
+    padding: 10px 10px;
+}
+a.new-window {
+    background: url("/img/external.png") no-repeat scroll right center transparent;
+    padding: 0 13px 0 0;
+}
 
+.category {
+    padding: 10px 20px 20px;
+}
+.item {
+    background-color: #fff;
+    border-radius: 5px;
+    -moz-box-shadow: 0 0 8px #aaa;
+    -webkit-box-shadow: 0 0 8px #aaa;
+    box-shadow: 0 0 8px #aaa;
+    float: left;
+    margin: 10px 10px 0 0;
+    width: 300px;
+}
+.item h3 {
+    background-color: #888;
+    border-radius: 5px 5px 0 0;
+    margin: 0 0 8px;
+    padding: 4px 8px;
+}
+.item a {
+    color: #679ab3;
+    font-weight: bold;
+    text-decoration: none;
+}
+.item a:hover {
+    border-left: 5px solid #679ab3;
+    margin-left: -12px;
+    padding-left: 7px;
+}
+.item p {
+    margin: 0 10px;
+    padding: 0 0 10px;
+}
+.item ul {
+    list-style: none;
+    margin: 0 12px;
+    padding: 0 0 10px;
+}
+.item li {
+    margin-bottom: 2px;
+}
+.item li .desc {
+    color: #888;
+    display: block;
+}
 
+.style1 h3 {
+    background-color: #CB4D4D;
+    color: #fff;
+}
 
-
-
-
-
+.style2 {
+    border-color: #dbd3d7;
+}
+.style2 h3 {
+    background-color: #dbd3d7;
+}
 
 
 
