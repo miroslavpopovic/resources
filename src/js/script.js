@@ -26,6 +26,17 @@
         }
     });
 
+    $('.category').each(function() {
+        var items = $('.item', this),
+            index = 1;
+        for (var i = 0; i < items.length; i++) {
+            $(items[i]).addClass('style' + index++);
+            if (index > 6) {
+                index = 1;
+            }
+        }
+    });
+
     enableNewWindowLinks();
 })();
 
