@@ -225,13 +225,48 @@ body {
     margin: 0;
     padding: 0;
 }
+
+::-moz-selection { background: #686565; color: #fff; text-shadow: none; }
+::selection { background: #686565; color: #fff; text-shadow: none; }
+
 /* http://css-tricks.com/watch-your-font-weight/ */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
 
-h2 {
+header {
+    text-align: center;
+}
+header h1 {
+    font-family: 'Squada One', cursive;
+    font-size: 5em;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    text-shadow: 0 0 8px #aaa;
+}
+header h2 {
+    font-size: 1em;
+    margin-bottom: 30px;
+}
+footer {
+    padding-bottom: 20px;
+}
+footer p {
+    text-align: center;
+}
+footer a, footer a:visited {
+    border-radius: 4px;
+    color: #666;
+    text-decoration: none;
+    padding: 1px 3px;
+}
+footer a:hover {
+    background-color: #686565;
+    color: #fff;
+}
+
+.main h2, footer h2 {
     background: #1C1A1A;
     border-left: 20px solid #686565;
     -moz-box-shadow: 0 0 8px #aaa;
@@ -240,7 +275,7 @@ h2 {
     clear: both;
     color: #fff;
     margin: 0;
-    padding: 10px 10px;
+    padding: 10px;
 }
 a.new-window {
     background: url(../img/external.png) no-repeat scroll right center transparent;
@@ -248,7 +283,7 @@ a.new-window {
 }
 
 .category {
-    padding: 0 20px 20px;
+    padding: 0 0px 20px 20px;
 }
 .item {
     background-color: #fff;
