@@ -10,7 +10,7 @@
     };
 
     function enableNewWindowLinks() {
-        $('.main a:external').addClass('new-window');
+        $('.main a:external, footer a:external').addClass('new-window');
 
         $('a.new-window').click(function () {
             window.open(this.href);
